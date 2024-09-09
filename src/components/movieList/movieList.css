@@ -12,3 +12,15 @@ margin:  2.5rem;
     flex-wrap: wrap ;
     justify-content: center;
 }
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.controls select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}

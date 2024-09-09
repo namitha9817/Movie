@@ -1,0 +1,40 @@
+.recentMov{
+    height: 100vh;
+}
+.recent-movies {
+    padding: 20px;
+    height: 100vh;
+}
+
+.recent-movies h2 {
+    margin-bottom: 20px;
+}
+
+.recent-movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recent-movie-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.recent-movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent-movie-poster {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recent-movie-item p {
+    margin-top: 10px;
+}

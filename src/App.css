@@ -3,3 +3,16 @@
   color: #fff;
   font-family: sans-serif;
 }
+.App {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}

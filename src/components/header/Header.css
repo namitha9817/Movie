@@ -1,37 +1,67 @@
 .header {
-    margin: 0 2.5rem;
-    padding: .5rem 0;
-    align-items: center;
     display: flex;
-    justify-content:space-between;
-}
-
-.headerLeft, .headerRight {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-
-}
-
-a > span{
-    margin: 0 30px;
-    font-size: 1.3rem;
-    cursor: pointer;
+    padding: 20px;
+    background-color: #000!important;
     color: white;
 }
 
-a > span:hover {
-    color: red;
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.headerLeft a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .header__icon {
-    width: 80px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+.headerRight {
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.input-container {
+    position: relative; /* For the error bubble to be positioned properly */
+    display: flex;
+    align-items: center;
+}
+
+
+.search-button  {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-.user__avatar {
-    font-size: 2rem;
+.search-button:hover {
+    background-color: #e6b800;
 }
 
-a{
-    text-decoration: none;
+.fa-lightbulb{
+    font-size: 30px;
 }
+.fa-lightbulb:hover{
+    cursor: pointer;
+    color: #ffcc00;
+}
+
