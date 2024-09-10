@@ -37,13 +37,14 @@
 }
 
 .movie__detailRight {
-    color: white;
     display: flex;
     flex-direction: column;
     height: 450px;
     justify-content:space-between ;
 }
-
+.movie__detailRightTop{
+    color: white;
+}
 .movie__detailRightTop > div{
     text-shadow: 0px 0px 5px #000000;
     margin-bottom: .5rem;

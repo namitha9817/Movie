@@ -3,8 +3,8 @@
 }
 
 .list__title {
-font-size: 1.75rem;
-margin:  2.5rem;
+    font-size: 1.75rem;
+    margin: 2.5rem 2.5rem 2.5rem 0rem;
 }
 
 .list__cards {

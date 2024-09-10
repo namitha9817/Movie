@@ -1,5 +1,6 @@
 .recentMov{
     height: 100vh;
+    padding: 0 3rem 3rem 3rem;
 }
 .recent-movies {
     padding: 20px;
@@ -13,7 +14,8 @@
 .recent-movies-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1px;
+    justify-content: center;
 }
 
 .recent-movie-link {

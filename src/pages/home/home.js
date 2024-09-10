@@ -28,10 +28,17 @@ const Home = () => {
                     {
                         popularMovies.map(movie => (
                             <Link style={{textDecoration:"none",color:"white"}} to={`/movie/${movie.id}`} >
-                                <div className="posterImage">
-                                    <img alt="movie-poster" src={`https://image.tmdb.org/t/p/original${movie && movie.backdrop_path}`} />
-                                </div>
-                                <div className="posterImage__overlay">
+                                <div
+                                    className="posterImage"
+                                    style={{
+                                        backgroundImage: `url(https://image.tmdb.org/t/p/original${movie && movie.backdrop_path})`,
+                                        backgroundPosition: 'center',
+                                        backgroundSize: 'cover',
+                                        backgroundRepeat: 'no-repeat',
+                                    }}
+                                    >
+                                    </div>
+                                    <div className="posterImage__overlay">
                                     <div className="posterImage__title">{movie ? movie.original_title: ""}</div>
                                     <div className="posterImage__runtime">
                                         {movie ? movie.release_date : ""}

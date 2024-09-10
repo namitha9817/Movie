@@ -39,7 +39,7 @@ const RecentMoviesList = () => {
 
     return (
         <div className='recentMov'>
-            <h2>Recently Viewed Movies</h2>
+            <h2 className='list__title'>Recently Viewed Movies</h2>
             <div className="recent-movies-list">
                 {recentMovies.length > 0 ? (
                     recentMovies.map((movie) => (

@@ -55,3 +55,26 @@
     text-align: left;
     width: 50%;
 }
+
+/* Hide menu on small screens */
+/* For screens with max-width 768px */
+@media (max-width: 768px) {
+    .posterImage__description {
+        width: 100%;
+    }
+
+    .posterImage__title {
+        line-height: 1em;
+        padding-bottom: 3%;
+    }
+}
+
+/* For screens with max-width 498px */
+@media (max-width: 498px) {
+    .posterImage__title {
+        font-size: 3rem;}
+    
+    .posterImage__runtime {
+        font-size: 1.2rem;
+    }
+}
