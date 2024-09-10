@@ -24,6 +24,7 @@
     display: flex;
     position: relative;
     bottom: 250px;
+    flex-direction: row;
 }
 
 .movie__detailLeft {
@@ -121,4 +122,23 @@
 
 .newTab {
     margin-left: 1.4rem;
+}
+
+/* Hide menu on small screens */
+@media (max-width: 768px) {
+    .movie__detail {
+        flex-direction: column;
+    }
+    .movie__detailRight {
+        padding: 10%;
+    }
+    .movie__genres {
+        display: none;
+    }
+    .movie__detailRight {
+        text-align: center;
+    }
+    .synopsisText{
+        justify-content: center;
+    }
 }

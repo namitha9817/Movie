@@ -15,14 +15,7 @@ const Header = () => {
     };
 
     // Close menu if clicked outside of it
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (menuRef.current && !menuRef.current.contains(event.target)) {
-                setIsMenuOpen(false);
-            }
-        };
-
-    }, []);
+  
 
     // Close menu on route change
     useEffect(() => {
